@@ -16,7 +16,9 @@ public class Main {
         lo.add("Catanzaro");
         System.out.println(lo);
 
-        
+        OrdinaFile o = new OrdinaFile("/workspaces/JavaEsercizi/HelloWorld/src/disordinato.txt", "/workspaces/JavaEsercizi/HelloWorld/src/ordinato.txt");
+
+        o.Ordina();
 
         // test MyIntArray
         /*
